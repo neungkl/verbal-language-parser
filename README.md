@@ -167,15 +167,15 @@ Number order helping for Parsing table below.
 
 | No | Expression |
 | -- | ---------- |
-| 1 |	S → CODE_BLOCK |
-| 2 |	CODE_BLOCK → FUNC CODE_BLOCK |
-| 3 |	CODE_BLOCK → λ |
-| 4 |	FUNC → function FUNC_NAME PARAMETER FUNC_BLOCK |
-| 5 |	PARAMETER → has input VARIABLE PARAMETER' |
-| 6 |	PARAMETER → λ |
-| 7 |	PARAMETER' → and VARIABLE |
-| 8 |	PARAMETER' → λ |
-| 9 |	FUNC_BLOCK → begin FUNC_STATEMENT end |
+| 1 | S → CODE_BLOCK |
+| 2 | CODE_BLOCK → FUNC CODE_BLOCK |
+| 3 | CODE_BLOCK → λ |
+| 4 | FUNC → function FUNC_NAME PARAMETER FUNC_BLOCK |
+| 5 | PARAMETER → has input VARIABLE PARAMETER' |
+| 6 | PARAMETER → λ |
+| 7 | PARAMETER' → and VARIABLE |
+| 8 | PARAMETER' → λ |
+| 9 | FUNC_BLOCK → begin FUNC_STATEMENT end |
 | 10 | FUNC_STATEMENT → DO_BLOCK |
 | 11 | DO_BLOCK → do STATEMENT DO_BLOCK |
 | 12 | DO_BLOCK → λ |
@@ -271,10 +271,10 @@ But the main concept detail of this algorithm is the same as LL(1) algorithm. Pu
 
 ## Usage
 
-[NodeJS](https://nodejs.org/en/) Required, then enter following command below.
+[NodeJS](https://nodejs.org/en/) Required, after installation complete, then enter following command below.
 
-```
-make
+```sh
+$ make
 ```
 
 
