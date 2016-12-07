@@ -9,8 +9,8 @@ and also implement some basic staff of language parser from study knowledge.
 
 ## Introduction
 
-Verbal language is designed for visually impaired. main benefit of this
-language is easily to readable and also supported for blind people to write
+Verbal language is designed for visually impaired. Main aiming of this
+language is provide a language that easily to speak for supported for blind people to write
 a programming language.
 
 Features included in my language
