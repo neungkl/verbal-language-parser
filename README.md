@@ -165,8 +165,8 @@ The list of Follow Set in LL(1) algorithm.
 
 Number order helping for Parsing table below.
 
-| # | Expression |
-| - | ---------- |
+| No | Expression |
+| -- | ---------- |
 | 1 |	S → CODE_BLOCK |
 | 2 |	CODE_BLOCK → FUNC CODE_BLOCK |
 | 3 |	CODE_BLOCK → λ |
