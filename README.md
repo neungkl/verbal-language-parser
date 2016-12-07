@@ -5,9 +5,7 @@ A 2110316 Programming Language study class homework. The assignment is
 creating a "Verbal" language with your own style of grammar language
 and also implement some basic staff of language parser from study knowledge.
 
-*Note : The scale of project is still in development state. But it's sufficient for sending the current version to my teacher.*
-
-*So, the project is currently not finished. But if I have enough time I maybe continue development to production state*
+*Note : The scale of project is still in development state. But it's sufficient for sending the current version to my teacher. So, the project is currently not finished. But if I have enough time I maybe continue development to production state*
 
 ## Introduction
 
@@ -166,7 +164,7 @@ The list of Follow Set in LL(1) algorithm.
 Number order helping for Parsing table below.
 
 | No | Expression |
-| -- | ---------- |
+| ---- | ---------- |
 | 1 | S → CODE_BLOCK |
 | 2 | CODE_BLOCK → FUNC CODE_BLOCK |
 | 3 | CODE_BLOCK → λ |
