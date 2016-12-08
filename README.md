@@ -205,28 +205,6 @@ Number order helping for Parsing table below.
 
 (Each number in table relate with expression order number)
 
-| S | $ |
-| CODE_BLOCK | $ |
-| FUNC | function, $ |
-| PARAMETER	| begin |
-| PARAMETER' | begin |
-| FUNC_BLOCK | function, $ |
-| FUNC_STATEMENT | end |
-| DO_BLOCK	| end |
-| STATEMENT	| do, end |
-| DECLARE	| do, end |
-| DECLARE_DEFAULT	| do, end |
-| ASSIGNMENT	| do, end |
-| EXPRESSION	| do, end |
-| EXPRESSION'| do, end |
-| RUN_FUNC	| do, end |
-| PARAMS	| do, end |
-| OPERAND	| minus, plus, multiple, divided, do, end |
-| OPERATOR | VARIABLE, NUMBER |
-| VALUE	| VARIABLE, NUMBER, minus, plus, multiple, divided, do, end |
-
-
-
 | # | "function" | "FUNC_NAME" | "has" | "input" | "VARIABLE" | "and" | "begin" | "end" | "do" | "return" | "show" | "declare" | "equal" | "assign" | "run" | "minus" | "plus" | "multiple" | "by" | "divided" | "NUMBER" | "$" |
 |---|------------|-------------|-------|---------|------------|-------|---------|-------|------|----------|--------|-----------|---------|----------|-------|---------|--------|------------|------|-----------|----------|-----|
 | S | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
