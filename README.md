@@ -135,7 +135,7 @@ The list of First Set in LL(1) algorithm.
 
 The list of Follow Set in LL(1) algorithm.
 
-| Non-Terminal Symbol | First Set |
+| Non-Terminal Symbol | Follow Set |
 | ----- | ----- |
 | S | $ |
 | CODE_BLOCK | $ |
